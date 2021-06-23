@@ -4,4 +4,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: cd munin-infra-metrics && pip install -r requirements.txt
+      - run: pip install -r requirements.txt
